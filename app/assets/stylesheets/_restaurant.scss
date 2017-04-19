@@ -1,0 +1,25 @@
+// Place all the styles related to the Restaurant controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: black;
+}
+.wrapper-restaurants {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  padding-top: 300px;
+  // background-color: black;
+}
+
+.wrapper-content {
+  font-family: Raleway;
+  font-size: 40px;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+}

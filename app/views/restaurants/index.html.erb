@@ -1,0 +1,16 @@
+<body>
+  <div class="container">
+    <div class="wrapper-restaurants">
+      <%= image_tag "AA026348.png" %>
+      <div class="wrapper-content">
+        <ul>
+          <% @restaurants.each do |restaurant| %>
+            <p><%= link_to restaurant.name, restaurant_path(restaurant) %>:
+            <%= restaurant.category %></p>
+        </ul>
+          <% end %>
+        <p><%= link_to 'New Restaurant', new_restaurant_path %></p>
+      </div>
+    </div>
+  </div>
+</body>
